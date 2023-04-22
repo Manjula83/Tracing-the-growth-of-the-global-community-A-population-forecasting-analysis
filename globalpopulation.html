@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Population Forecasting Analysis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-color: #FFCC22;
+  background-image: url("globalpopulation.png");
+  background-position: center;
+  background-size: cover;
+  color: BLACK;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color:;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: darkorange;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #E18B6B;
+  color: darksalmon;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #9AFEFF;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body >
+
+<div class="header">
+  <h1>TRACING THE GROWTH OF GLOBAL COMMUNITY</h1><br>
+  <p> Population growth increasing numbers of people surviving to reproductive age, the gradual increase in human lifespan, increasing urbanization, and accelerating migration.</p><br>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="Dashboard.html">Dashboard</a>
+  <a href="Story.html">Story</a>
+  <a href="#" class="right">About</a>
+</div>
+
+<div class="row">
+  <div class="side">
+ 
+    
+    <h2><i><font color="#F635BA">DESIGN</font></i></h2>
+    <p >Data visualization is to make complex data sets more accessible,intuitive and easier to interpret.The Graphs and Charts used in here for visualisation will be more understanding at a quick glance.</p>
+     <br>
+      <h2><i><font color="#F635BA">DASHBOARD</font></i></h2>
+    <p>Visualization dashboard is an interactive dashboard that allows you to track key performance indicators, monitor performance metrics, and display data in the form of charts, graphs, and tables.</p>
+    <br>
+    <h2><i><font color="#F635BA">STORY</font></i></h2>
+    <p>Story is a sequence of data visualizations that work together to convey information.</p>
+    
+  </div>
+  <div class="main">
+    <h2><i><font color="#6AODAD">DEFINITION OF POPULATION</font></i></h2>
+    <p>A population is all the organisms that both belong to the same group or species and live in the same geographical area. tn sociology, population refers to a collection of human beings. Demography is a social science which entails the statistical study of human populations. This article refers mainly to human population.</p>
+    <br>
+    <h2><i><font color="#6AODAD">WORLD HUMAN POPULATION</font></i></h2>
+    <p>The world’s population is more than three times larger than it was in the mid-twentieth century.The world’s population is expected to increase by nearly 2 billion persons in the next 30 years, from the current 8 billion to 9.7 billion in 2050 and could peak at nearly 10.4 billion in the mid-2080s.</p>
+    <br>
+     <h2><i><font color="#6AODAD">BIRTH & DEATH RATE</font><i></h2>
+     <p>The number of live births per 1,000 population in a given year.The ratio of deaths to the population of a particular area or during a particular period of time,usually calculated as the number of deaths per 1,000 people per year.</p>
+</div>
+</div>
+
+<div class="footer">
+  <h2>Contact us</h2>
+</div>
+
+</body>
+</html> 
